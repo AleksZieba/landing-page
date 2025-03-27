@@ -3,417 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lukman - Web Developer Portfolio</title>
+  <title>Aleks Zieba | Web Developer</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <div class="navbar-content">
-        <a href="/" class="logo">
-          <svg width="204" height="36" viewBox="0 0 204 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
-            <g clipPath="url(#clip0_120_893)">
-              <path d="M46.7293 0H4.9712C2.22568 0 0 2.04022 0 4.55696V31.443C0 33.9598 2.22568 36 4.9712 36H46.7293C49.4748 36 51.7005 33.9598 51.7005 31.443V4.55696C51.7005 2.04022 49.4748 0 46.7293 0Z" fill="white"/>
-              <path d="M28.3096 9.11499L21.3664 26.7859H23.4594L30.4027 9.11499H28.3096ZM19.3351 11.6637L18.7943 11.9822L10.3914 16.9663L9.94336 17.2282V18.191L10.3605 18.4672L18.7634 23.9044L19.3351 24.2655V22.0496L12.7007 17.7522L19.3351 13.8159V11.6637ZM32.1866 11.6637V13.8159L38.8209 17.7522L32.1866 22.0496V24.2655L32.7582 23.9044L41.1611 18.4672L41.5783 18.191V17.2282L41.1302 16.9663L32.7273 11.9822L32.1866 11.6637Z" fill="#111111"/>
-              <path d="M64.5597 6.83447V29.2814H61.6445V6.83447H64.5597ZM72.1067 15.2075V23.64C72.1067 24.7484 72.4252 25.6095 73.0623 26.2231C73.6993 26.8367 74.5468 27.1436 75.6049 27.1436C76.9653 27.1436 78.018 26.7328 78.763 25.9114C79.508 25.0899 79.8805 23.9765 79.8805 22.571V15.2075H82.7957V29.2814H79.8805V27.1139H79.8157C79.4054 27.9057 78.736 28.5242 77.8075 28.9696C76.879 29.415 75.864 29.6377 74.7628 29.6377C73.0569 29.6377 71.7018 29.1527 70.6977 28.1828C69.6936 27.2128 69.1916 25.946 69.1916 24.3822V15.2075H72.1067ZM90.116 6.83447V21.324L96.756 15.2075H100.805L93.6141 21.6209L101.388 29.2814H97.2419L90.116 21.9772V29.2814H87.2008V6.83447H90.116Z" fill="white"/>
-              <path d="M111.721 14.8512C113.945 14.8512 115.543 15.7222 116.514 17.4641C117.011 16.6327 117.691 15.9894 118.555 15.5341C119.419 15.0789 120.358 14.8512 121.373 14.8512C125.238 14.8512 127.182 16.89 127.203 20.9677V29.2814H124.288V21.2943C124.288 19.9087 124.018 18.9041 123.478 18.2806C122.939 17.6571 122.107 17.3453 120.984 17.3453C119.667 17.3453 118.685 17.7115 118.037 18.4439C117.389 19.1763 117.065 20.1858 117.065 21.4725V29.2814H114.15V21.71C114.15 20.0473 113.891 18.9041 113.372 18.2806C112.854 17.6571 112.034 17.3453 110.911 17.3453C109.702 17.3453 108.735 17.7709 108.012 18.6221C107.288 19.4732 106.927 20.552 106.927 21.8585V29.2814H104.012V15.2075H106.732V17.4047H106.797C107.121 16.7119 107.763 16.1131 108.724 15.6084C109.685 15.1036 110.684 14.8512 111.721 14.8512Z" fill="white"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_120_893">
-                <rect width="204" height="36" fill="white"/>
-              </clipPath>
-            </defs>
-          </svg>
-        </a>
-
-        <!-- Desktop Navigation -->
-        <div class="desktop-nav">
-          <a href="#services" class="nav-link">Services</a>
-          <a href="#works" class="nav-link">Works</a>
-          <a href="#skills" class="nav-link">Skills</a>
-          <a href="#testimonials" class="nav-link">Testimonials</a>
-          <button class="btn btn-primary">Contact</button>
-        </div>
-
-        <!-- Mobile Navigation Button -->
-        <div class="mobile-menu-btn">
-          <button id="menu-toggle">
-            <i class="fas fa-bars" id="menu-icon"></i>
-          </button>
-        </div>
-      </div>
-
-      <!-- Mobile Menu -->
-      <div class="mobile-menu" id="mobile-menu">
-        <div class="mobile-menu-links">
-          <a href="#services" class="nav-link">Services</a>
-          <a href="#works" class="nav-link">Works</a>
-          <a href="#skills" class="nav-link">Skills</a>
-          <a href="#testimonials" class="nav-link">Testimonials</a>
-          <button class="btn btn-primary btn-full">Contact</button>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Main Content -->
   <main>
-    <!-- Hero Section -->
     <section class="hero-section">
       <div class="container">
         <div class="hero-content">
           <div class="hero-text">
             <h1 class="hero-title">
-              I am Lukman
-              <span class="hero-highlight">Next-Level Web Developer.</span>
+              I am Aleks
+              <span class="hero-highlight">Full-Stack Web Developer</span>
             </h1>
             <p class="hero-description">
-              I help their company and experience problems by building accessible and inclusive web products and digital experiences.
+              I help companies overcome challenges by building accessible and inclusive web products and digital experiences.
             </p>
             <div class="hero-buttons">
-              <button class="btn btn-primary btn-lg">Contact Me</button>
-              <button class="btn btn-outline btn-lg">Download CV</button>
+              <a href="mailto:aleks@lepszyangielski.pl" class="btn btn-primary btn-lg">Contact Me</a>
+              <a href="https://github.com/alekszieba" target="_blank" class="btn btn-outline btn-lg">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/alex-zieba-69867b3b" target="_blank" class="btn btn-outline btn-lg">
+                <i class="fab fa-linkedin"></i>
+              </a>
             </div>
           </div>
-          <div class="hero-image">
-            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design%20(1)-36mT3cZRS54CSZtOrCfN1EpI4EI0tZ.png" alt="Profile" class="profile-image">
-          </div>
-        </div>
-
-        <!-- Stats -->
-        <div class="stats">
-          <div class="stat-item">
-            <div class="stat-value">3</div>
-            <div class="stat-label">Years of Experience</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-value">5+</div>
-            <div class="stat-label">Projects Completed</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-value">5</div>
-            <div class="stat-label">Happy Clients</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-value">3</div>
-            <div class="stat-label">Years of Experience</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services-section" id="services">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">What I Do</h2>
-          <p class="section-description">
-            I offer a wide range of services to help businesses and individuals create impactful digital experiences.
-            Here's how I can help you succeed.
-          </p>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon"><i class="fas fa-code"></i></div>
-            <h3 class="service-title">Website Design</h3>
-            <p class="service-description">I craft custom stunning, user-friendly, and responsive designs tailored to your needs.</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fas fa-palette"></i></div>
-            <h3 class="service-title">UI/UX Design</h3>
-            <p class="service-description">Creating intuitive and engaging user experiences that delight your users.</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon"><i class="fas fa-globe"></i></div>
-            <h3 class="service-title">Web Development</h3>
-            <p class="service-description">Building fast, secure, and scalable web applications using modern technologies.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects-section" id="works">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Featured Projects</h2>
-          <p class="section-description">
-            Explore my latest web development projects. Each project demonstrates my commitment to creating innovative and
-            user-friendly digital solutions.
-          </p>
-        </div>
-        <div class="projects-grid">
-          <div class="project-card">
-            <div class="project-image">
-              <img src="https://via.placeholder.com/400x300" alt="NFT Marketplace Dashboard">
-            </div>
-            <h3 class="project-title">NFT Marketplace Dashboard</h3>
-            <p class="project-description">A modern dashboard for NFT trading with real-time updates and analytics.</p>
-            <div class="project-links">
-              <a href="#" class="btn btn-outline-small"><i class="fas fa-external-link-alt"></i> Demo</a>
-              <a href="#" class="btn btn-outline-small"><i class="fab fa-github"></i> Code</a>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="https://via.placeholder.com/400x300" alt="E-commerce Platform">
-            </div>
-            <h3 class="project-title">E-commerce Platform</h3>
-            <p class="project-description">Full-featured e-commerce solution with cart, checkout, and payment integration.</p>
-            <div class="project-links">
-              <a href="#" class="btn btn-outline-small"><i class="fas fa-external-link-alt"></i> Demo</a>
-              <a href="#" class="btn btn-outline-small"><i class="fab fa-github"></i> Code</a>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="https://via.placeholder.com/400x300" alt="Social Media App">
-            </div>
-            <h3 class="project-title">Social Media App</h3>
-            <p class="project-description">Real-time social media platform with messaging and post sharing features.</p>
-            <div class="project-links">
-              <a href="#" class="btn btn-outline-small"><i class="fas fa-external-link-alt"></i> Demo</a>
-              <a href="#" class="btn btn-outline-small"><i class="fab fa-github"></i> Code</a>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="https://via.placeholder.com/400x300" alt="Task Management Tool">
-            </div>
-            <h3 class="project-title">Task Management Tool</h3>
-            <p class="project-description">Collaborative task management app with drag-and-drop interface.</p>
-            <div class="project-links">
-              <a href="#" class="btn btn-outline-small"><i class="fas fa-external-link-alt"></i> Demo</a>
-              <a href="#" class="btn btn-outline-small"><i class="fab fa-github"></i> Code</a>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="https://via.placeholder.com/400x300" alt="Weather Dashboard">
-            </div>
-            <h3 class="project-title">Weather Dashboard</h3>
-            <p class="project-description">Weather forecasting app with interactive maps and real-time updates.</p>
-            <div class="project-links">
-              <a href="#" class="btn btn-outline-small"><i class="fas fa-external-link-alt"></i> Demo</a>
-              <a href="#" class="btn btn-outline-small"><i class="fab fa-github"></i> Code</a>
-            </div>
-          </div>
-          <div class="project-card">
-            <div class="project-image">
-              <img src="https://via.placeholder.com/400x300" alt="Fitness Tracking App">
-            </div>
-            <h3 class="project-title">Fitness Tracking App</h3>
-            <p class="project-description">Personal fitness tracker with workout plans and progress monitoring.</p>
-            <div class="project-links">
-              <a href="#" class="btn btn-outline-small"><i class="fas fa-external-link-alt"></i> Demo</a>
-              <a href="#" class="btn btn-outline-small"><i class="fab fa-github"></i> Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="skills-section" id="skills">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">My Skills</h2>
-          <p class="section-description">
-            I've spent years honing my skills in web development. Here's an overview of my technical expertise and
-            proficiency levels.
-          </p>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-item">
-            <div class="skill-header">
-              <span class="skill-name">React</span>
-              <span class="skill-percentage">92%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 92%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-header">
-              <span class="skill-name">CSS</span>
-              <span class="skill-percentage">85%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-header">
-              <span class="skill-name">NextJS</span>
-              <span class="skill-percentage">92%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 92%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-header">
-              <span class="skill-name">Node.js</span>
-              <span class="skill-percentage">87%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 87%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-header">
-              <span class="skill-name">JavaScript</span>
-              <span class="skill-percentage">93%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 93%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-header">
-              <span class="skill-name">React Native</span>
-              <span class="skill-percentage">92%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 92%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials-section" id="testimonials">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Client Testimonials</h2>
-          <p class="section-description">
-            Don't just take my word for it. Here's what my clients have to say about their experiences working with me.
-          </p>
-        </div>
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div class="testimonial-icon"><i class="fas fa-quote-left"></i></div>
-            <p class="testimonial-content">Working with this developer was an absolute pleasure. Their attention to detail and creative solutions made our project a success.</p>
-            <div class="testimonial-author">
-              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop&q=60" alt="Sarah Johnson" class="testimonial-image">
-              <div class="testimonial-info">
-                <h4 class="testimonial-name">Sarah Johnson</h4>
-                <p class="testimonial-position">CEO at TechStart</p>
-              </div>
-            </div>
-          </div>
-          <div class="testimonial-card">
-            <div class="testimonial-icon"><i class="fas fa-quote-left"></i></div>
-            <p class="testimonial-content">Exceptional work! The developer delivered beyond our expectations and was always responsive to our needs.</p>
-            <div class="testimonial-author">
-              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&auto=format&fit=crop&q=60" alt="Michael Chen" class="testimonial-image">
-              <div class="testimonial-info">
-                <h4 class="testimonial-name">Michael Chen</h4>
-                <p class="testimonial-position">Product Manager</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Let's Get In Touch</h2>
-          <p class="section-description">
-            Have a project in mind or want to discuss potential opportunities? I'm just a message away.
-          </p>
-        </div>
-        <div class="contact-content">
-          <div class="contact-info">
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div class="contact-details">
-                <h3 class="contact-title">Phone</h3>
-                <p class="contact-value">+91 7074399354</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class="contact-details">
-                <h3 class="contact-title">Email</h3>
-                <p class="contact-value">dev.lukmansk@gmail.com</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class="contact-details">
-                <h3 class="contact-title">Address</h3>
-                <p class="contact-value">Murshidabad, West Bengal, India</p>
-              </div>
-            </div>
-          </div>
-          <form class="contact-form">
-            <div class="form-row">
-              <input type="text" placeholder="First Name" class="form-input">
-              <input type="text" placeholder="Last Name" class="form-input">
-            </div>
-            <input type="email" placeholder="Email" class="form-input">
-            <textarea placeholder="Message" rows="6" class="form-textarea"></textarea>
-            <button type="submit" class="btn btn-primary btn-lg btn-full">Send Message</button>
-          </form>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-column">
-          <h3 class="footer-title">Lukman</h3>
-          <p class="footer-description">
-            Full Stack Developer based in your location. Available for freelance work.
-          </p>
-        </div>
-        <div class="footer-column">
-          <h4 class="footer-heading">Company</h4>
-          <ul class="footer-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4 class="footer-heading">Services</h4>
-          <ul class="footer-links">
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">UI/UX Design</a></li>
-            <li><a href="#">Mobile Development</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4 class="footer-heading">Contact Us</h4>
-          <ul class="footer-links">
-            <li>hello@example.com</li>
-            <li>+1234567890</li>
-            <li>Your Address Here</li>
-          </ul>
-        </div>
-      </div>
+        <div class="footer-content horizontal-footer">
+            <span>
+              <span class="no-word-spacing">Contact Me:</span> aleks@lepszyangielski.pl
+            </span>
+            <span>|</span>
+            <span>
+              Links: 
+              <a href="mailto:aleks@lepszyangielski.pl">Contact Me</a> - 
+              <a href="https://github.com/alekszieba" target="_blank">GitHub</a> - 
+              <a href="https://www.linkedin.com/in/alex-zieba-69867b3b" target="_blank">LinkedIn</a>
+            </span>
+          </div>
       <div class="footer-bottom">
-        <p>© 2024 Lukman. All rights reserved.</p>
+        <p>© 2024 Aleks Zieba. All rights reserved.</p>
       </div>
     </div>
-  </footer>
-
+  </footer> 
   <script src="script.js"></script>
 </body>
 </html>
