@@ -113,7 +113,6 @@ img {
     width: 100%;
 }
   
-/* Main content grows to fill available space */
 main {
     flex: 1;
 }
@@ -138,13 +137,14 @@ main {
 }
   
 .hero-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 1.2;
 }
-  
+
 .hero-highlight {
+    font-size: 2.5rem;
     display: block;
     color: var(--primary);
     margin-top: 0.5rem;
@@ -165,7 +165,7 @@ main {
 .hero-text {
     text-align: left;
     max-width: 600px; /* Adjust width as needed */
-    margin: 0 auto;   /* Centers the container on the screen */
+    margin: 0 auto;   
 }
   
 /* Footer Styles */
@@ -242,6 +242,10 @@ main {
   }
   
   .hero-title {
+    font-size: 2.5rem;
+  } 
+
+  .hero-highlight {
     font-size: 2rem;
   }
   
@@ -269,6 +273,10 @@ main {
 
 @media (max-width: 480px) {
   .hero-title {
+    font-size: 2.25rem;
+  } 
+
+  .hero-highlight {
     font-size: 1.75rem;
   }
   
