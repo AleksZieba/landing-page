@@ -48,5 +48,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   
       requestAnimationFrame(typeStep);
-    }, 500);
+    }, 250);
   });
